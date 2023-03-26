@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="icon" href="./Assets/favicon.png">
+</head>
+<body>
+    <header>
+        <h1>Welcome to our Landing Page</h1>
+    </header>
+    <main>
+        <section>
+            <h2>About Us</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse ducimus accusantium placeat est, totam itaque animi ipsam assumenda, fugit distinctio id voluptates fugiat cupiditate, rem asperiores ratione nostrum impedit culpa?</p>
+        </section>
+        <section>
+            <h2>Contact Us</h2>
+            <button id="show-form">Contact Form</button>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Input Name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Input Email address">
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" required cols="30" rows="10"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
